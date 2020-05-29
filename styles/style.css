@@ -1,0 +1,355 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: "Linux Libertine",Georgia,Times,serif;
+    line-height: 1.5;
+    max-width: 82rem;
+}
+header {
+    font-size: 15px;
+    margin: 42px auto -2px;
+    width: 100%;
+    text-align: center;
+    text-decoration-style: none;
+}
+header .header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .header-logo span {
+    font-size: 15px;
+}
+header .header-logo img{
+    width: 171px;
+    margin-bottom: 4px;
+}
+main .main-logo {
+    display: flex;
+    height: 320px;
+    margin-top: 13px;
+}
+main .main-languages {
+    margin: 0 auto;
+    position: relative;
+}
+main .main-languages img {
+    margin-top: 63px;
+    width: 200px;
+    height: 183px;
+}
+main .main-languages .language{
+    width: 156px;
+    height: 45px;
+    text-align: center;
+    display: block;
+}
+main .main-languages .language a {
+    color:#36c;
+    text-decoration: none;
+    font-family: -apple-system,"BlinkMacSystemFont","Segoe UI","Roboto","Lato",Helvetica,Arial,sans-serif;
+}
+main .main-languages .language a span {
+    color:#54595d;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 3px;
+    display: block;
+}
+/* Lenguages of main logo */
+.spanish {
+    position: absolute;
+    top: 0px;
+    right: 155px;
+}
+.english {
+    position: absolute;
+    top: 0px;
+    left: 154px;
+}
+.chinese {
+    position: absolute;
+    top: 65px;
+    right: 210px;
+}
+.german {
+    position: absolute;
+    top: 66px;
+    left: 209px;
+}
+.roussian {
+    position: absolute;
+    top: 130px;
+    right: 221px;
+}
+.french {
+    position: absolute;
+    top: 130px;
+    left: 220px;
+}
+.italian {
+    position: absolute;
+    top: 195px;
+    right: 209px;
+}
+.japanese {
+    position: absolute;
+    top: 195px;
+    left: 208px;
+}
+.portuguese {
+    position: absolute;
+    top: 260px;
+    right: 155px;
+}
+.polish {
+    position: absolute;
+    top: 260px;
+    left: 154px;
+}
+main .main-languages a strong:hover {
+   cursor:pointer;
+   text-decoration: underline;
+}
+
+/*---------- search----------*/
+/* button #3366cc*/
+main .main-search {
+    margin: 14px 12px 0 0;
+}
+main .main-search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-search-container input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px 0 0 2px;
+    border-right: none;
+    line-height: 1.5;
+    padding-left: 15px;
+}
+main .main-search-container input:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+    outline: 0;
+}
+main .main-search-container select {
+    width: 49px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: gray;
+    margin-left: -61px;
+    border: none;
+}
+main .main-search-container button {
+    background-color: #3366cc;
+    width: 56px;
+    height: 44px;
+    border-radius: 0 2px 2px 0;
+    vertical-align: middle;
+    border: none;
+}
+main .main-search-container button:hover {
+    background-color: #447ff5;
+}
+main .main-search-container button:active {
+    background-color: #2a4b8d;
+    border-color: #2a4b8d;
+    box-shadow: none;
+    color: #fff;
+}
+main .main-search-container button span {
+    background-image: url(https://www.seekpng.com/png/full/920-9209972_magnifying-glass-png-white-search-icon-white-png.png);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+}
+
+/*---------main select------*/
+main .main-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+main .main-select select {
+    background-color: #f8f9fa;
+    position: relative;
+    z-index: 1;
+    padding: 6px 12px;
+    outline: 16px solid #fff;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    color: #36c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+}
+main .main-select select:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+    outline: 0;
+}
+/*--------footer-----*/
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2.4rem 4.28rem 1.28rem;
+    font-size: 13px;
+    border-top: 1px solid #c8ccd1;
+    font-family: -apple-system,"BlinkMacSystemFont","Segoe UI","Roboto","Lato",Helvetica,Arial,sans-serif;
+    display: grid;
+    grid-template-columns: 400px 65%;
+}
+footer p {
+    color: #54595d;
+    font-size: 14px;
+}
+footer .footer-sidebar {
+    margin-bottom: 3.2rem;
+    vertical-align: center;
+}
+footer .footer-sidebar-content {
+    display: inline-flex;
+    max-width: 350px;
+}
+footer .footer-sidebar-content img{
+    width: 42px;
+    height: 42px;
+}
+footer .footer-sidebar-content p {
+    text-align: left;
+    max-width: 270px;
+    margin: 0 10px;
+    padding-left: 5px;
+    color: #54595d;
+    font-size: 13px;
+}
+
+/*--------app-badges----------*/
+
+footer .footer-app-badges {
+    margin-bottom: 3.2rem;
+    background-color: #f8f9fa;
+    grid-row: 2;
+    columns: 1;
+    margin-right: 15%;
+}
+footer .footer-app-badges .info {
+    display: inline-flex;
+    max-width: 350px;
+}
+footer .footer-app-badges .info img {
+    width: 42px;
+    height: 42px;
+}
+footer .footer-app-badges .info strong {
+    font-size: 13px;
+    color: #54595d;
+    display: block;
+}
+footer .footer-app-badges .info p {
+    text-align: left;
+    max-width: 270px;
+    margin: 0 10px;
+    padding-left: 5px;
+    color: #54595d;
+    font-size: 13px;
+}
+/*---app----*/
+footer .footer-app-badges .app {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+footer .footer-app-badges .app .android {
+    margin-left: 14px;
+}
+footer .footer-app-badges .app .android span {
+    background-image: url(https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 144px;
+    height: 43px;
+    margin: 0;
+}
+footer .footer-app-badges .app .ios span {
+    background-image: url(https://allstarmartialartswellington.com/wp-content/uploads/2019/11/kisspng-app-store-android-google-play-get-started-now-button-5ad30806450350.4163070215237795902827.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 107px;
+    height: 37px;
+    margin-top: 2px;
+}
+/*-----------proyects---------*/
+footer .footer-projects {
+    grid-area: 1/2/3/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer .project {
+    position: relative;
+    height: 90px;
+    display: inline-flex;
+}
+footer .project .project-content {
+    text-decoration: none;
+    display: inline-flex;
+    max-width: 350px;
+    justify-content: space-between;
+}
+footer .project .project-content-icon img {
+    width: 42px;
+    height: 42px;
+}
+footer .project .project-content-text {
+    margin-left: 12px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+footer .project-content-text .tagline {
+    color: #54595d;
+    font-size: 12px;
+}
+footer .project-content-text .title {
+    color: #36c;
+}
+
+/*------end-----*/
+.site-license {
+    margin: 0;
+    color: #54595d;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family:sans-serif;
+}
+.site-license a {
+    text-decoration: none;
+}
+.site-license a:hover {
+    text-decoration: underline;
+}
+.site-license .license:after {
+    content: "\2022";
+    margin-left: 8px;
+    margin-right: 5px;
+}
+.site-license .terms:after {
+    content: "\2022";
+    margin-left: 8px;
+    margin-right: 5px;
+}
