@@ -1,0 +1,123 @@
+@media screen and (max-width: 768px) {
+    footer {
+        grid-template-columns: 100vw;
+        grid-template-rows: 120px 338px 300px;
+        padding: 15px;
+    }
+    .footer-sidebar {
+        grid-row: 1;
+        width: 96%;
+    }
+    footer .footer-sidebar-content {
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footer-sidebar-content p {
+        max-width: none;
+        margin: 0;
+        text-align: center;
+    }
+    footer .footer-app-badges {
+        grid-row: 3;
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footer-projects {
+        grid-row: 2;
+        grid-area: 2;
+        width: 96%;
+    }
+    .site-license {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 480px){
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    main .main-search {
+        order:-1;
+        margin: 10px 12px 0 10px;
+    }
+    footer {
+        grid-template-rows: 120px 600px 300px;
+    }
+    footer .footer-projects{
+        grid-template-columns: 1fr 1fr;
+    }
+    main .main-logo img {
+        width: 50px;
+        height: 50px;
+        display: block;
+        position: absolute;
+        top: -183px;
+        left: 64px;
+    }
+    main .main-languages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(4,1fr);
+    }
+    main .main-languages .language{
+        position: initial;
+        width: 130px;
+        height: 69px;
+    }
+    footer .footer-projects{
+        width: 93%;
+    }
+    footer .footer-sidebar {
+        width: 93%;   
+    }
+    footer .footer-app-badges {
+        margin-right: 0;
+        width: 93%;
+    }
+}
+@media screen and (max-width: 320px){
+    header .header-logo {
+        position: relative;
+        left: 22px;
+    }
+    header .header-logo img {
+        width: 144px;
+        margin-bottom: 0px;
+    }
+    footer {
+        grid-template-rows: 136px 600px 300px;
+    }
+    main .main-languages {
+        grid-gap: 0px 30px;
+    }
+    main .main-languages .language {
+        width: 80px;
+    }
+    main .main-logo img {
+        width: 50px;
+        height: 50px;
+        display: block;
+        position: absolute;
+        top: -178px;
+        left: 52px;
+    }
+    footer .footer-projects{
+        width: 88%;
+    }
+    footer .footer-sidebar {
+        width: 88%;   
+    }
+    footer .footer-app-badges {
+        margin-right: 0;
+        width: 91%;
+    }
+    footer .footer-app-badges .app {
+        padding-left: 10px;
+    }
+}
