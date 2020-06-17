@@ -1,12 +1,11 @@
 @media screen and (max-width: 768px) {
     footer {
-        grid-template-columns: 100vw;
+        grid-template-columns: 1fr;
         grid-template-rows: 120px 338px 300px;
         padding: 15px;
     }
     .footer-sidebar {
         grid-row: 1;
-        width: 96%;
     }
     footer .footer-sidebar-content {
         max-width: none;
@@ -21,15 +20,14 @@
     }
     footer .footer-app-badges {
         grid-row: 3;
-        width: 96%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-right: 0;
     }
     footer .footer-projects {
         grid-row: 2;
         grid-area: 2;
-        width: 96%;
     }
     .site-license {
         display: flex;
@@ -70,28 +68,19 @@
         width: 130px;
         height: 69px;
     }
-    footer .footer-projects{
-        width: 93%;
-    }
-    footer .footer-sidebar {
-        width: 93%;   
-    }
-    footer .footer-app-badges {
-        margin-right: 0;
-        width: 93%;
-    }
 }
 @media screen and (max-width: 320px){
     header .header-logo {
         position: relative;
         left: 22px;
+        width: 296px;
     }
     header .header-logo img {
         width: 144px;
         margin-bottom: 0px;
     }
     footer {
-        grid-template-rows: 136px 600px 300px;
+        grid-template-rows: 136px 600px 255px;
     }
     main .main-languages {
         grid-gap: 0px 30px;
@@ -105,17 +94,10 @@
         display: block;
         position: absolute;
         top: -178px;
-        left: 52px;
-    }
-    footer .footer-projects{
-        width: 88%;
-    }
-    footer .footer-sidebar {
-        width: 88%;   
+        left: 40px;
     }
     footer .footer-app-badges {
-        margin-right: 0;
-        width: 91%;
+        margin: 0;
     }
     footer .footer-app-badges .app {
         padding-left: 10px;
